@@ -1,0 +1,20 @@
+name: choccyoreo
+version: '${project.version}'
+main: oreo.choccyoreo.Choccyoreo
+api-version: '1.20'
+commands:
+  die:
+    description: A way out!
+    usage: /<command>
+  setspawn:
+    description: Sets world spawn
+    usage: /<command>
+  spawn:
+    description: Sends you to spawn
+    usage: /<command>
+  sethome:
+    description: sets home
+    usage: /<command> [home name]
+  home:
+    description: teleports you to a home
+    usage: /<command> [home name]
